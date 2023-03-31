@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S-devices</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-s-devices.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="head-div">
+            <a href="index.html" class="index">
+                <img src="s-device logo.png" alt="s-device" class="logo">
+            </a>
+            <div class="search">
+                <input type="search" autocomplete="on" placeholder="Search for products" class="focus">
+                <button for="input"><span class="material-symbols-outlined">search</span></button>
+            </div>
+            <div class="cart">
+                <a href="#" class="s-cart">
+                    <span>Cart</span>
+                    <span class="material-symbols-outlined cart-icon">
+                        shopping_cart
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="nav-div">
+            <nav>
+                <a href="index.html">Home</a>
+                <select name="Categories" id="categories">
+                    <option>Categories</option>
+                    <option>Mobile Phones</option>
+                    <option>Laptops</option>
+                    <option>Televison</option>
+                    <option>Accessories</option>
+                    <option>Home Appliances</option>
+                    <option>Lorem</option>
+                    <option>Lorem</option>
+                    <option>Lorem</option>
+                    <option>Lorem</option>
+                    <option>Lorem</option>
+                    <option>Lorem</option>
+                    <option>Lorem</option>
+                </select>
+                <a href="#">Shops</a>
+                <a href="#">Discounts</a>
+                <a href="#">About</a>
+                <a href="#">Delivery</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQs</a>
+                <a href="#">Signin</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="ad">
+            <a href="#" class="v-more">
+                VIEW MORE &RightArrow;
+            </a>
+        </div>
+        <div class="container"><!--Parent for two div sections-->
+            <div class="top-brands"><!--First div section-->
+                <h3>Top Brands</h3>
+                    <a href="#">Samsung</a>
+                    <a href="#">iPhone</a>
+                    <a href="#">Hisense</a>
+                    <a href="#">LG</a>
+                    <a href="#">Infinix</a>
+                    <a href="#">Tecno</a>
+                    <a href="#">Xaiomi</a>
+                    <a href="#">Oppo</a>
+                    <a href="#">Sony</a>
+                    <a href="#">Vivo</a>
+                    <a href="#">Microsoft</a>
+            </div>
+
+            <div class="category-ads"><!--Second div section-->
+                <div class="background">
+                    <img src="img1.jpg" alt="Image" id="img1">
+                    <img src="img2.jpg" alt="Image" id="img2">
+                    <img src="img3.jpg" alt="Image" id="img3">
+                    <img src="img4.jpg" alt="Image" id="img4">
+                </div>
+                <div class="showcase">
+                    <button id="btn1" onclick="next1()">Home Appliances</button>
+                    <button id="btn2" onclick="next2()">Phones</button>
+                    <button id="btn3" onclick="next3()">Gadets</button>
+                    <button id="btn4" onclick="next4()">Laptops</button>
+                </div>
+            </div>
+        </div>
+        <div class="hot-deal-container">
+            <img src="iphone14-series.png" alt="iphone14-series">
+            <div class="hot-deal">
+                <h3>Hot Deals</h3>
+                <div class="deal-text">
+                    <p>Iphone 14 </p>
+                    <p>Pro max</p><br>
+                    <span>Get the iPhone 14 Pro Max on <b>50%</b> Discount Today</span><br>
+                    <small>Take amazing detailed photo of yourself with the new iphone 14 pro max</small><br>
+                    <ul>
+                        <li><a href="#" class="hot-deal-link1">Buy Now &rightarrow;</a></li>
+                        <li><a href="#" class="hot-deal-link2">See other deals &rightarrow;</a></li>
+                    </ul>
+                </div>
+                <div class="deal-img"><!--for the iphone image--></div>
+            </div>
+        </div>
+        
+      <div class="stocks">
+            <div class="header">
+                <span>Official Store Deals</span>
+                <a href="#">View More &RightArrow;</a>
+            </div>
+            <div class="stocks-container">
+                <div class="box box1">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/71/3196612/1.jpg?6848" alt="Oppo A17k">
+                    <span>Oppo A17k</span>
+                    <span class="price1">₦ 70,000</span>
+                    <small class="price2">₦ 120,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box2">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/44/3567422/1.jpg?0317" alt="Ps 4">
+                    <span>Sony Playstation 5</span>
+                    <span class="price1">₦ 330,000</span>
+                    <small class="price2">₦ 400,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box3">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/42/9161622/1.jpg?6081" alt="Asus vivobook">
+                    <span>Asus Vivibook</span>
+                    <span class="price1">₦ 79,000</span>
+                    <small class="price2">₦ 100,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box4">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/39/4927521/1.jpg?8740" alt="Galaxy A03">
+                    <span>Samsung Galaxy A03</span>
+                    <span class="price1">₦ 60,000</span>
+                    <small class="price2">₦ 100,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box5">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/44/6628991/1.jpg?6413" alt="Xaiomi Note 11s">
+                    <span>Xaiomi Note 11s</span>
+                    <span class="price1">₦ 110,000</span>
+                    <small class="price2">₦ 160,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+            </div>
+        </div>
+        <div class="stocks">
+            <div class="header">
+                <span>Rush Hour</span>
+                <a href="#">View More &RightArrow;</a>
+            </div>
+            <div class="stocks-container">
+                <div class="box box1">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/57/6414122/1.jpg?2313" alt="Syinix 32">
+                    <span>Syinix 32"</span>
+                    <span class="price1">₦ 20,000</span>
+                    <small class="price2">₦ 45,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box2">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/12/4214031/1.jpg?0003" alt="Tecno Power bank">
+                    <span>Tecno 10000mAh Powerbank</span>
+                    <span class="price1">₦ 4,000</span>
+                    <small class="price2">₦ 10,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box3">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/93/3531212/1.jpg?1294" alt="Dual shock 4">
+                    <span>Sony PS4 Dual Shock 4</span>
+                    <span class="price1">₦ 10,000</span>
+                    <small class="price2">₦ 25,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box4">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/81/9566991/1.jpg?7554" alt="Tecno Pop 5">
+                    <span>Tecno Pop 5</span>
+                    <span class="price1">₦ 22,000</span>
+                    <small class="price2">₦ 52,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+                <div class="box box5">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/0430622/1.jpg?0265" alt="Infinix Hot 20i">
+                    <span>Infinix Hot 20i</span>
+                    <span class="price1">₦ 30,000</span>
+                    <small class="price2">₦ 80,000</small>
+                    <a href="#" class="buy"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!--All Script below-->    
+<script>
+    /* jQuery script for Search border*/
+    $(document).ready(function(){
+        $(".focus").focusin(function(){
+            $(".search").css({"border":"3px solid white"});
+        });
+        $(".focus").focusout(function(){
+            $(".search").css({"border":"none"});
+        });
+    });
+    /* Javascript for class('background') images switch */
+    function next2(){
+        document.getElementById('btn2').style.backgroundColor='rgba(0, 0, 0, 0.531)';
+        document.getElementById('btn1').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn3').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn4').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn2').style.borderTop='20px solid rgba(255, 128, 0, 0.798)';
+        document.getElementById('btn1').style.borderTop='none';
+        document.getElementById('btn3').style.borderTop='none';
+        document.getElementById('btn4').style.borderTop='none';
+        document.getElementById('img2').style.display='block';
+        document.getElementById('img1').style.display='none';
+        document.getElementById('img3').style.display='none';
+        document.getElementById('img4').style.display='none';
+    }
+    function next3(){
+        document.getElementById('btn3').style.backgroundColor='rgba(0, 0, 0, 0.531)';
+        document.getElementById('btn1').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn2').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn4').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn3').style.borderTop='20px solid rgba(255, 128, 0, 0.798)';
+        document.getElementById('btn1').style.borderTop='none';
+        document.getElementById('btn2').style.borderTop='none';
+        document.getElementById('btn4').style.borderTop='none';
+        document.getElementById('img3').style.display='block';
+        document.getElementById('img1').style.display='none';
+        document.getElementById('img2').style.display='none';
+        document.getElementById('img4').style.display='none';
+    }
+    function next4(){
+        document.getElementById('btn4').style.backgroundColor='rgba(0, 0, 0, 0.531)';
+        document.getElementById('btn1').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn3').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn2').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn4').style.borderTop='20px solid rgba(255, 128, 0, 0.798)';
+        document.getElementById('btn1').style.borderTop='none';
+        document.getElementById('btn3').style.borderTop='none';
+        document.getElementById('btn2').style.borderTop='none';
+        document.getElementById('img4').style.display='block';
+        document.getElementById('img1').style.display='none';
+        document.getElementById('img3').style.display='none';
+        document.getElementById('img2').style.display='none';
+    }
+    function next1(){
+        document.getElementById('btn1').style.backgroundColor='rgba(0, 0, 0, 0.531)';
+        document.getElementById('btn2').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn3').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn4').style.backgroundColor='rgba(0, 0, 0, 0.743)';
+        document.getElementById('btn1').style.borderTop='20px solid rgba(255, 128, 0, 0.798)';
+        document.getElementById('btn2').style.borderTop='none';
+        document.getElementById('btn3').style.borderTop='none';
+        document.getElementById('btn4').style.borderTop='none';
+        document.getElementById('img1').style.display='block';
+        document.getElementById('img2').style.display='none';
+        document.getElementById('img3').style.display='none';
+        document.getElementById('img4').style.display='none';
+    }
+</script>
+</body>
+</html>

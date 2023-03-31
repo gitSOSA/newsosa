@@ -1,0 +1,71 @@
+
+@media screen  and (min-width:1000px) {
+    .hot-deal-container img{
+        width: 50%;
+    }
+}
+@media screen  and (max-width:480px) {
+    .hot-deal-container img{
+        width: 90%;
+        left: 0;
+    }
+}
+@media screen and (min-width:1200px) {
+    .deal-text p{
+        font-size: 4em;
+    }
+}
+@media screen and (max-width:1999px) {
+    .deal-text p{
+        font-size: 3em;
+    }
+}
+@media screen and (max-width:900px) {
+    .deal-text p{
+        font-size: 2em;
+    }
+    .deal-text{
+        line-height: normal;
+    }
+}
+@media screen and (max-width:700px) {
+    .deal-text{
+        text-align: left;
+    }
+    .deal-text ul{
+        flex-flow: column;
+        font-size: 1.3rem;
+    }
+    .deal-text a{
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width:500px){
+    .deal-text{
+        padding: 0;
+    }
+    .deal-text p{
+        display: block;
+    }
+    .deal-text p{
+        font-size: 1.5em;
+    }
+    .box{
+        width: 45%;
+    }
+    .box1{
+        left: 0;
+    }
+    .box2{
+        left: 50%;
+    }
+    .box3{
+        left: 100%;
+    }
+    .box4{
+        left: 150%;
+    }
+    .box5{
+        left: 200%;
+    }
+}
